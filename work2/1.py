@@ -1,5 +1,5 @@
 from collections import Counter
-string = "fuckyoumothereveryday"
+string = "DuMaMay"
 
 result = Counter(string)
 print(result)
