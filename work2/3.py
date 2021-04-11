@@ -1,9 +1,6 @@
-string = "fuckyoumothereveryday"
-a = {}
-for i in string:
-    if str(i) == str(i):
-        a[i] = str(string.index(i))
 
-    else:
-        continue
-print('The single string and its index is:', '\n', a)
+dicStr = {}
+strInput = input("Enter a string: ")
+for i in range(len(strInput)):
+    dicStr[strInput[i]] = i
+print(dicStr)
